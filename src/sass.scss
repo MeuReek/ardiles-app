@@ -1,0 +1,87 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+html , body , #root {
+    height: 100vh;
+}
+.top{
+    background: linear-gradient(to right, #67b26f, #4ca2cd);
+    
+}
+.foot{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background: linear-gradient(to right, #4ca2cd, #67b26f);
+}
+header{
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    justify-content: center;
+    text-align: center;
+}
+nav{
+    height: 2.5em;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid white;
+    border-style: outset;
+    justify-content: center;
+    align-items: center;
+    a{
+        width: fit-content;
+        height: fit-content;
+        border: 1px solid white ;
+        border-radius: 5px;
+        margin-left: 1rem;
+        font-size: 14px;
+        color: white;
+        text-decoration: none;
+    }
+}
+.cart-widget{
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid white ;
+    border-radius: 5px;
+    margin-left: 1rem;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.loader{
+    
+    margin-left: 45%;
+    animation-duration: 3seg;
+}
+.product-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.35rem;
+    margin-top: 0.5rem;
+}
+.product{
+    background: linear-gradient(to right, #4ca2cd, #67b26f);
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    font-size: 14px;
+    font-family: 'Roboto Condensed';
+    text-align: center;
+    border-radius: 3px;
+    }
+    .product-detail{
+        background: linear-gradient(to right, #4ca2cd, #67b26f);
+        color: white;
+        height: fit-content;
+        width: fit-content;
+        font-size: 14px;
+        font-family: 'Roboto Condensed';
+        text-align: center;
+        border-radius: 3px;
+        }
