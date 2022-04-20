@@ -78,7 +78,7 @@ useEffect(() => {
             return Promise.all(resultado)
         })
             .catch((respuestaError) => {
-            toast.error("Error al cargar");
+            toast.error(`Error al cargar`)
             })
             .finally(() => {
                 setCargando(false)
@@ -108,7 +108,7 @@ useEffect(() => {
             return Promise.all(resultado)
         })
             .catch((respuestaError) => {
-            toast.error("Error al cargar");
+            toast.error(`Error al cargar`)
             })
             .finally(() => {
                 setCargando(false)
